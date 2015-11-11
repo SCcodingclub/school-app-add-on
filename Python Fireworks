@@ -1,0 +1,52 @@
+import random
+
+from time import sleep as wait
+
+
+
+
+print "Fireworks Launcher"
+
+print'total number of fireworks = 1000'
+
+cd = raw_input ('Enter "CD" to start display (no quotes)')
+
+fireworks = 1000
+
+if cd == 'CD':
+
+    print '5'
+
+    wait(1)
+
+    print '4'
+
+    wait(1)
+
+    print '3'
+
+    wait(1) 
+
+    print '2'
+
+    wait(1)
+
+    print '1'
+
+    wait(1)
+
+    while fireworks >0 :
+
+        print "Launching firework"
+
+        fireworks = fireworks-1
+
+        print(fireworks)
+
+        time = random.randint(1, 10)
+
+        time = time/8
+
+        wait(time)
+
+        
