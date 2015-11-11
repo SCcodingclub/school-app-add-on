@@ -1,0 +1,31 @@
+From time import sleep as wait 
+
+Print ‘maths homework solver’ 
+
+Print ‘a man is paid 100 pounds on his first day of work and it increases by 100 pounds every day.’ 
+
+Print  ‘another is paid 1p,2p but then 4p.’ 
+
+Print ‘When do they have the same amount?’ 
+
+# introduce a new variable for each man and the day 
+
+Xpre = 100 
+
+Ypre = 1 
+
+Day = 1 
+
+While stop == 0: 
+
+ If  Xpre == Ypre: 
+
+  Print ‘Yes! Today’ 
+
+  stop = 1 
+
+ Xpre = Xpre+1 
+
+ Ypre = Ypre+1 
+
+ Day = Day+1 
